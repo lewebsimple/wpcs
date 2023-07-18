@@ -11,6 +11,21 @@
     <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired">
 	    <severity>0</severity>
     </rule>
+    <rule ref="Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.CodeAnalysis.AssignmentInCondition.Found">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.CodeAnalysis.AssignmentInCondition.FoundInTernaryCondition">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.PHP.DisallowShortTernary.Found">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.PHP.StrictInArray.MissingTrueStrict">
+	    <severity>0</severity>
+    </rule>
     <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
 	    <severity>0</severity>
     </rule>

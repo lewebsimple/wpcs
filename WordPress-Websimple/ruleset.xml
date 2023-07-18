@@ -8,4 +8,10 @@
     <rule ref="Squiz.Commenting">
 	    <severity>0</severity>
     </rule>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
+	    <severity>0</severity>
+    </rule>
 </ruleset>

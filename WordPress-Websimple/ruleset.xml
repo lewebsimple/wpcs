@@ -20,10 +20,25 @@
     <rule ref="WordPress.CodeAnalysis.AssignmentInCondition.FoundInTernaryCondition">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.DB.DirectDatabaseQuery.DirectQuery">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.DB.DirectDatabaseQuery.NoCaching">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.PHP.DevelopmentFunctions.error_log_error_log">
+	    <severity>0</severity>
+    </rule>
     <rule ref="WordPress.PHP.DisallowShortTernary.Found">
 	    <severity>0</severity>
     </rule>
     <rule ref="WordPress.PHP.StrictInArray.MissingTrueStrict">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.PHP.YodaConditions.NotYoda">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.WP.GlobalVariablesOverride.Prohibited">
 	    <severity>0</severity>
     </rule>
     <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">

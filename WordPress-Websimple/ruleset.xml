@@ -38,6 +38,9 @@
     <rule ref="WordPress.PHP.YodaConditions.NotYoda">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.Security.EscapeOutput.OutputNotEscaped">
+	    <severity>0</severity>
+    </rule>
     <rule ref="WordPress.WP.GlobalVariablesOverride.Prohibited">
 	    <severity>0</severity>
     </rule>

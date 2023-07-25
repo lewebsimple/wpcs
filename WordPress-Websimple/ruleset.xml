@@ -104,4 +104,10 @@
     <rule ref="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.DB.SlowDBQuery.slow_db_query_meta_key">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.PHP.StrictComparisons.LooseComparison">
+	    <severity>0</severity>
+    </rule>
 </ruleset>

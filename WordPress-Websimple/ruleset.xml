@@ -77,4 +77,19 @@
     <rule ref="Internal.NoCodeFound">
 	    <severity>0</severity>
     </rule>
+    <rule ref="Squiz.PHP.CommentedOutCode.Found">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops.Found">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.Files.FileName.InvalidClassFileName">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.Security.NonceVerification.Missing">
+	    <severity>0</severity>
+    </rule>
 </ruleset>

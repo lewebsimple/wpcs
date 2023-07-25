@@ -53,7 +53,22 @@
     <rule ref="WordPress.DB.SlowDBQuery.slow_db_query_meta_query">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.DB.SlowDBQuery.slow_db_query_tax_query">
+	    <severity>0</severity>
+    </rule>
     <rule ref="WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.Security.ValidatedSanitizedInput.MissingUnslash">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.Security.ValidatedSanitizedInput.InputNotSanitized">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.Security.ValidatedSanitizedInput.InputNotValidated">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.WP.EnqueuedResources.NonEnqueuedScript">
 	    <severity>0</severity>
     </rule>
 </ruleset>

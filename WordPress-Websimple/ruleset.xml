@@ -92,4 +92,13 @@
     <rule ref="WordPress.Security.NonceVerification.Missing">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.PHP.NoSilencedErrors.Discouraged">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.DB.PreparedSQL.InterpolatedNotPrepared">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.DB.SlowDBQuery.slow_db_query_meta_value">
+	    <severity>0</severity>
+    </rule>
 </ruleset>

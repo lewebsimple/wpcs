@@ -50,4 +50,10 @@
     <rule ref="Generic.Commenting.DocComment.MissingShort">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.DB.SlowDBQuery.slow_db_query_meta_query">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query">
+	    <severity>0</severity>
+    </rule>
 </ruleset>

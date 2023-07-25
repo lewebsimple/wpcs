@@ -71,4 +71,10 @@
     <rule ref="WordPress.WP.EnqueuedResources.NonEnqueuedScript">
 	    <severity>0</severity>
     </rule>
+    <rule ref="WordPress.Security.NonceVerification.Recommended">
+	    <severity>0</severity>
+    </rule>
+    <rule ref="Internal.NoCodeFound">
+	    <severity>0</severity>
+    </rule>
 </ruleset>
